@@ -1,0 +1,22 @@
+Privateリポジトリのプッシュ方法
+
+
+コマンドプロンプトで
+ssh-keygen -t rsa -b 4096 -C "takukai0605@gmail.com"
+↓
+出力結果の中から「.pub」のファイルが格納されているパスをコピー
+↓
+「clip <」と入力し後ろにさっきコピーしたパスをペースト
+clip <パス
+↓
+githubにアクセスし、右上の自分のアイコンをクリック
+↓
+下から二番目のSettingsを選択
+↓
+左のタブからSSH and GPS keysを選択
+↓
+New SSHをクリックし、Titleに説明を記入、Keyにペースト（さっきクリップした奴がコピーされている）
+↓
+Add SSH keyを押す
+
+
